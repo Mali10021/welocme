@@ -14,6 +14,8 @@ public class welcom {
 		System.out.print("Enter Last Name: ");
 		lastName = read.next();
 		
+		read.close();
+		
 		System.out.println("Welcome to my github, Mr." + firstName + " " + lastName);
 
 	}
